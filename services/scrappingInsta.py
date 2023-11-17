@@ -1,7 +1,7 @@
 from instagrapi import Client
 
-ACCOUNT_USERNAME='jose_alvert1'
-ACCOUNT_PASSWORD='Andres180213'
+ACCOUNT_USERNAME=''
+ACCOUNT_PASSWORD=''
 
 def main(*args, arg ):
     cl = Client()
