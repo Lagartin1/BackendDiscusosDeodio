@@ -1,12 +1,12 @@
 #Clonar el Repositorio
 
 
-'''bash
+```bash
 git clone https://github.com/Lagartin1/BackendDiscusosDeodio.git BackendDiscursosOdio
 cd BackendDiscursosOdio
 npm install
 npm run dev
-'''
+```
 
 #
 
