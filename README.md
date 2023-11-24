@@ -30,7 +30,7 @@ IACCOUNT_PASSWORD="Contraseña_cuenta"
 
 # Para la Base de Datos 
 
-## AÑADIR LAS Variables de entorno en la raiz, y anñadir :
+## AÑADIR LAS Variables de entorno en la raiz, y añadir :
 
 ```
   
