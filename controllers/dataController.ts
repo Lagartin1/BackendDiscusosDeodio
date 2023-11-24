@@ -1,5 +1,6 @@
 import { Data,urlData } from "../models/dataModel";
 import { Request, Response} from "express";
+import { pool as p} from '../src/db.ts' 
 
 let listData: Data[] = [
   {
@@ -8,6 +9,10 @@ let listData: Data[] = [
     date: 'dd/mm/yyyy',
   },
 ];
+
+// para consultas utilizar funciones async y await, 
+// para hacer CRUD
+// p.quert("AQUI LA CONSULTA SQL")
 
 export const createData = (req: Request, res: Response) => {
     const newData = new Data(req.body);
