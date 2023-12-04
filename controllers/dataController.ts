@@ -1,6 +1,6 @@
 import { Data,urlData } from "../models/dataModel";
 import { Request, Response} from "express";
-import { pool as p} from '../src/db.ts' 
+import { pool as p} from '../src/db' 
 
 let listData: Data[] = [
   {
